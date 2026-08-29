@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="No-Face Agent Factory: un sistema AI-assisted per orchestrare la produzione di short-form video con controllo umano, osservabilita e sicurezza.">
+  <meta name="theme-color" content="#111315">
+  <meta property="og:title" content="No-Face Agent Factory | Project Showcase">
+  <meta property="og:description" content="From idea backlog to reviewed, publish-ready vertical video through a coordinated multi-agent workflow.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/agent-factory-hero.png">
+  <title>No-Face Agent Factory | Project Showcase</title>
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Vai al contenuto</a>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="No-Face Agent Factory home">
+      <span class="brand-mark" aria-hidden="true">NF</span>
+      <span>Agent Factory</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navigazione principale">
+      <a href="#overview" data-i18n="navOverview">Progetto</a>
+      <a href="#system" data-i18n="navSystem">Sistema</a>
+      <a href="#decisions" data-i18n="navDecisions">Decisioni</a>
+      <a href="#outcomes" data-i18n="navOutcomes">Risultati</a>
+    </nav>
+
+    <div class="language-switch" role="group" aria-label="Language">
+      <button class="language-button is-active" type="button" data-lang="it" aria-pressed="true">IT</button>
+      <button class="language-button" type="button" data-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/agent-factory-hero.png" width="1536" height="1024" fetchpriority="high" alt="Visualizzazione concettuale di una factory AI che coordina la produzione di video verticali">
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content page-shell">
+        <p class="eyebrow" data-i18n="heroEyebrow">AI automation | Media operations | Human-in-the-loop</p>
+        <h1 id="hero-title">No-Face<br>Agent Factory</h1>
+        <p class="hero-copy" data-i18n="heroCopy">Un sistema AI-assisted che trasforma un backlog di idee in video verticali revisionabili, coordinando agenti specializzati senza rinunciare al controllo umano.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#system">
+            <span data-i18n="exploreSystem">Esplora il sistema</span>
+            <i data-lucide="arrow-down" aria-hidden="true"></i>
+          </a>
+          <a class="button button-secondary" href="#decisions">
+            <span data-i18n="seeDecisions">Vedi le decisioni</span>
+          </a>
+        </div>
+      </div>
+      <p class="hero-note" data-i18n="heroNote">Project showcase | dati e interfacce dimostrative</p>
+    </section>
+
+    <section class="signal-bar" aria-label="Project signals">
+      <div class="page-shell signal-grid">
+        <div><strong>11</strong><span data-i18n="signalAgents">ruoli agentici coordinati</span></div>
+        <div><strong>9:16</strong><span data-i18n="signalFormat">workflow video end-to-end</span></div>
+        <div><strong>HITL</strong><span data-i18n="signalHuman">review e approvazione umana</span></div>
+        <div><strong>Private</strong><span data-i18n="signalPrivate">architettura source-protected</span></div>
+      </div>
+    </section>
+
+    <section class="section page-shell" id="overview">
+      <div class="section-heading">
+        <p class="section-index">01 / <span data-i18n="overviewLabel">Il progetto</span></p>
+        <h2 data-i18n="overviewTitle">Dall'esperimento AI a un sistema operativo controllabile.</h2>
+      </div>
+
+      <div class="overview-grid">
+        <article class="statement statement-problem">
+          <p class="statement-label" data-i18n="problemLabel">Problema</p>
+          <h3 data-i18n="problemTitle">La produzione short-form richiede molte decisioni ripetitive, strumenti scollegati e passaggi difficili da tracciare.</h3>
+          <p data-i18n="problemBody">L'obiettivo non era generare un singolo video, ma progettare un flusso ripetibile con responsabilita chiare, stati leggibili e punti di controllo editoriali.</p>
+        </article>
+
+        <article class="statement statement-solution">
+          <p class="statement-label" data-i18n="solutionLabel">Soluzione</p>
+          <h3 data-i18n="solutionTitle">Una factory modulare che coordina ricerca, scrittura, media, review, pubblicazione e apprendimento.</h3>
+          <p data-i18n="solutionBody">Ogni fase ha un agente responsabile, un contratto di stato e un output verificabile. La dashboard rende il processo comprensibile anche a chi non lavora sul codice.</p>
+        </article>
+      </div>
+
+      <div class="role-band">
+        <div>
+          <p class="section-index" data-i18n="roleLabel">Il mio ruolo</p>
+          <h3 data-i18n="roleTitle">Product thinking, system design e implementazione end-to-end.</h3>
+        </div>
+        <p data-i18n="roleBody">Ho definito il modello operativo, scomposto il lavoro in agenti specializzati, progettato orchestration e dashboard, introdotto persistenza, recovery, controlli di sicurezza e una strategia di pubblicazione separata dal codice proprietario.</p>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="system">
+      <div class="page-shell">
+        <div class="section-heading section-heading-light">
+          <p class="section-index">02 / <span data-i18n="systemLabel">Come funziona</span></p>
+          <h2 data-i18n="systemTitle">Una pipeline leggibile, non una black box.</h2>
+          <p data-i18n="systemIntro">Ogni fase espone una responsabilita dell'agente, un output e il controllo applicato.</p>
+        </div>
+
+        <div class="pipeline-layout">
+          <div class="pipeline-rail" role="list" aria-label="Pipeline stages">
+            <button class="pipeline-stage is-active" type="button" data-stage="discover" role="listitem" aria-pressed="true">
+              <span class="stage-number">01</span><span data-i18n="stageDiscover">Discover</span>
+            </button>
+            <button class="pipeline-stage" type="button" data-stage="script" role="listitem" aria-pressed="false">
+              <span class="stage-number">02</span><span data-i18n="stageScript">Script</span>
+            </button>
+            <button class="pipeline-stage" type="button" data-stage="visual" role="listitem" aria-pressed="false">
+              <span class="stage-number">03</span><span data-i18n="stageVisual">Visual plan</span>
+            </button>
+            <button class="pipeline-stage" type="button" data-stage="voice" role="listitem" aria-pressed="false">
+              <span class="stage-number">04</span><span data-i18n="stageVoice">Voice</span>
+            </button>
+            <button class="pipeline-stage" type="button" data-stage="subtitles" role="listitem" aria-pressed="false">
+              <span class="stage-number">05</span><span data-i18n="stageSubtitles">Subtitles</span>
+            </button>
+            <button class="pipeline-stage" type="button" data-stage="render" role="listitem" aria-pressed="false">
+              <span class="stage-number">06</span><span data-i18n="stageRender">Render</span>
+            </button>
+            <button class="pipeline-stage" type="button" data-stage="review" role="listitem" aria-pressed="false">
+              <span class="stage-number">07</span><span data-i18n="stageReview">Human review</span>
+            </button>
+            <button class="pipeline-stage" type="button" data-stage="publish" role="listitem" aria-pressed="false">
+              <span class="stage-number">08</span><span data-i18n="stagePublish">Publish</span>
+            </button>
+            <button class="pipeline-stage" type="button" data-stage="learn" role="listitem" aria-pressed="false">
+              <span class="stage-number">09</span><span data-i18n="stageLearn">Learn</span>
+            </button>
+          </div>
+
+          <article class="stage-detail" aria-live="polite">
+            <div class="stage-detail-topline">
+              <span class="status-dot"></span>
+              <span data-i18n="stageDetailStatus">Responsabilita isolata | output verificabile</span>
+            </div>
+            <p class="stage-detail-number" id="stage-detail-number">01</p>
+            <h3 id="stage-detail-title">Research & backlog</h3>
+            <p id="stage-detail-body">Raccoglie e ordina opportunita editoriali, poi prepara un brief tracciabile per la produzione.</p>
+            <div class="stage-guardrail">
+              <i data-lucide="shield-check" aria-hidden="true"></i>
+              <div><strong data-i18n="guardrailLabel">Guardrail</strong><span id="stage-detail-guardrail">Una richiesta entra in produzione solo dopo una selezione esplicita.</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section demo-section" aria-labelledby="demo-title">
+      <div class="page-shell">
+        <div class="section-heading">
+          <p class="section-index">03 / <span data-i18n="demoLabel">Esperienza operativa</span></p>
+          <h2 id="demo-title" data-i18n="demoTitle">Lo stato del sistema in un solo colpo d'occhio.</h2>
+          <p data-i18n="demoIntro">Questa e una ricostruzione sintetica: mostra il modello di interazione senza esporre dati, percorsi o configurazioni reali.</p>
+        </div>
+
+        <div class="dashboard-demo">
+          <div class="demo-sidebar">
+            <div class="demo-logo"><span>NF</span><strong>Control room</strong></div>
+            <div class="demo-nav-list" aria-label="Synthetic dashboard navigation">
+              <div class="demo-nav is-active"><i data-lucide="activity" aria-hidden="true"></i><span data-i18n="demoMonitor">Monitor</span></div>
+              <div class="demo-nav"><i data-lucide="play-square" aria-hidden="true"></i><span data-i18n="demoReview">Video review</span></div>
+              <div class="demo-nav"><i data-lucide="database" aria-hidden="true"></i><span data-i18n="demoRecovery">Recovery</span></div>
+            </div>
+            <div class="demo-system-ok"><span></span><small data-i18n="demoHealthy">System healthy</small></div>
+          </div>
+
+          <div class="demo-main">
+            <div class="demo-header">
+              <div><small data-i18n="demoPilot">Pilot run</small><h3 data-i18n="demoTopic">Opportunity cost</h3></div>
+              <span class="demo-pill" data-i18n="demoActive">Active</span>
+            </div>
+
+            <div class="demo-metrics">
+              <div><span data-i18n="metricAgents">Agents ready</span><strong>11 / 11</strong></div>
+              <div><span data-i18n="metricProgress">Pipeline</span><strong>6 / 9</strong></div>
+              <div><span data-i18n="metricReview">Review queue</span><strong>01</strong></div>
+            </div>
+
+            <div class="agent-monitor">
+              <div class="monitor-heading"><strong data-i18n="monitorTitle">Live agent monitor</strong><span data-i18n="monitorUpdated">updated now</span></div>
+              <div class="agent-grid" aria-label="Synthetic agent statuses">
+                <div class="agent-tile done"><span>R</span><small>Research</small><b>success</b></div>
+                <div class="agent-tile done"><span>S</span><small>Script</small><b>success</b></div>
+                <div class="agent-tile done"><span>V</span><small>Visual</small><b>success</b></div>
+                <div class="agent-tile done"><span>VO</span><small>Voice</small><b>success</b></div>
+                <div class="agent-tile working"><span>CC</span><small>Subtitles</small><b>working</b></div>
+                <div class="agent-tile"><span>RE</span><small>Render</small><b>idle</b></div>
+                <div class="agent-tile"><span>M</span><small>Metadata</small><b>idle</b></div>
+                <div class="agent-tile"><span>A</span><small>Analytics</small><b>idle</b></div>
+              </div>
+            </div>
+
+            <div class="run-progress">
+              <div><strong data-i18n="runCurrent">Current step</strong><span data-i18n="runCaption">Subtitle synchronization</span></div>
+              <div class="progress-track"><span></span></div>
+              <small>06:42 | <span data-i18n="runTrace">full trace available</span></small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section page-shell" id="decisions">
+      <div class="section-heading">
+        <p class="section-index">04 / <span data-i18n="decisionsLabel">Decisioni progettuali</span></p>
+        <h2 data-i18n="decisionsTitle">Le scelte che rendono la factory affidabile.</h2>
+      </div>
+
+      <div class="decision-list">
+        <article class="decision-row">
+          <span class="decision-icon icon-cyan"><i data-lucide="blocks" aria-hidden="true"></i></span>
+          <div><p class="decision-kicker" data-i18n="decisionArchitectureLabel">Architettura</p><h3 data-i18n="decisionArchitectureTitle">Agenti piccoli, responsabilita esplicite</h3></div>
+          <p data-i18n="decisionArchitectureBody">La modularita permette di rigenerare solo la fase problematica, osservare ogni passaggio e sostituire componenti senza riprogettare l'intero flusso.</p>
+        </article>
+        <article class="decision-row">
+          <span class="decision-icon icon-coral"><i data-lucide="user-check" aria-hidden="true"></i></span>
+          <div><p class="decision-kicker" data-i18n="decisionQualityLabel">Qualita</p><h3 data-i18n="decisionQualityTitle">Automazione con gate umano</h3></div>
+          <p data-i18n="decisionQualityBody">Video, sottotitoli, visual e metadata passano da una checklist editoriale prima di avanzare verso la pubblicazione.</p>
+        </article>
+        <article class="decision-row">
+          <span class="decision-icon icon-lime"><i data-lucide="refresh-cw" aria-hidden="true"></i></span>
+          <div><p class="decision-kicker" data-i18n="decisionResilienceLabel">Resilienza</p><h3 data-i18n="decisionResilienceTitle">Backup, scritture sicure e recovery</h3></div>
+          <p data-i18n="decisionResilienceBody">Gli stati critici sono verificabili, le modifiche sono recuperabili e gli errori non devono trasformarsi in perdita silenziosa di dati.</p>
+        </article>
+        <article class="decision-row">
+          <span class="decision-icon icon-amber"><i data-lucide="lock-keyhole" aria-hidden="true"></i></span>
+          <div><p class="decision-kicker" data-i18n="decisionSecurityLabel">Sicurezza</p><h3 data-i18n="decisionSecurityTitle">Source-protected by design</h3></div>
+          <p data-i18n="decisionSecurityBody">La vetrina pubblica e separata dall'ambiente operativo. Usa solo contenuti sintetici e non ha accesso automatico a sorgenti, dati o configurazioni.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section stack-section">
+      <div class="page-shell stack-grid">
+        <div>
+          <p class="section-index">05 / <span data-i18n="stackLabel">Technology landscape</span></p>
+          <h2 data-i18n="stackTitle">Tecnologie scelte per orchestrare, osservare e produrre.</h2>
+        </div>
+        <ul class="stack-list" aria-label="Technology stack">
+          <li>Python</li><li>FastAPI</li><li>Streamlit</li><li>PostgreSQL</li><li>Docker</li><li>n8n</li><li>FFmpeg</li><li>Whisper</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section page-shell" id="outcomes">
+      <div class="section-heading">
+        <p class="section-index">06 / <span data-i18n="outcomesLabel">Outcome</span></p>
+        <h2 data-i18n="outcomesTitle">Un sistema dimostrabile, governabile e pronto a evolvere.</h2>
+      </div>
+
+      <div class="outcome-grid">
+        <article><span>01</span><h3 data-i18n="outcomeOneTitle">Flusso ripetibile</h3><p data-i18n="outcomeOneBody">Dall'idea alla review con stati e responsabilita comprensibili.</p></article>
+        <article><span>02</span><h3 data-i18n="outcomeTwoTitle">Controllo operativo</h3><p data-i18n="outcomeTwoBody">Monitoraggio live, health check, error handling e recovery visibile.</p></article>
+        <article><span>03</span><h3 data-i18n="outcomeThreeTitle">Qualita intenzionale</h3><p data-i18n="outcomeThreeBody">Checklist e approvazioni impediscono alla velocita di sostituire il giudizio.</p></article>
+        <article><span>04</span><h3 data-i18n="outcomeFourTitle">Base evolutiva</h3><p data-i18n="outcomeFourBody">La modularita prepara integrazioni, job asincroni e valutazioni future.</p></article>
+      </div>
+
+      <div class="learning-band">
+        <p class="section-index" data-i18n="learningLabel">Principale apprendimento</p>
+        <blockquote data-i18n="learningQuote">Il valore non e nel singolo agente, ma nei contratti, nei controlli e nell'esperienza che rendono molti agenti un unico sistema.</blockquote>
+      </div>
+    </section>
+
+    <section class="closing-section">
+      <div class="page-shell closing-grid">
+        <div>
+          <p class="eyebrow" data-i18n="closingEyebrow">AI systems | automation | product engineering</p>
+          <h2 data-i18n="closingTitle">Progettato per trasformare complessita tecnica in un flusso operativo chiaro.</h2>
+        </div>
+        <div class="closing-note">
+          <i data-lucide="shield" aria-hidden="true"></i>
+          <p data-i18n="closingNote">Questa vetrina e deliberatamente separata dal prodotto operativo. Tutti i dati mostrati sono sintetici e il codice sorgente resta privato.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-shell footer-grid">
+      <div><strong>No-Face Agent Factory</strong><span data-i18n="footerType">Independent project showcase</span></div>
+      <p>Designed &amp; built by Dennis | 2026</p>
+      <a href="#top" aria-label="Torna all'inizio"><span data-i18n="backTop">Torna su</span><i data-lucide="arrow-up" aria-hidden="true"></i></a>
+    </div>
+  </footer>
+</body>
+</html>
