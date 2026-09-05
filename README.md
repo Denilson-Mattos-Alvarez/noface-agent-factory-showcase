@@ -1,31 +1,60 @@
 # No-Face Agent Factory
 
-No-Face Agent Factory is an independent AI product and automation project by
-Denilson Mattos Alvarez. It explores how a coordinated group of specialized
-agents can turn an editorial idea into a reviewable vertical video while
-keeping human judgment, traceability and recovery inside the process.
+**An AI-assisted media operations system that turns an idea backlog into reviewable vertical videos through a coordinated multi-agent workflow.**
 
-## What this showcase demonstrates
+[Open the live project showcase](https://denilson-mattos-alvarez.github.io/noface-agent-factory-showcase/)
 
-- Product thinking applied to an end-to-end media workflow
+## Video demo
+
+[![Watch the No-Face Agent Factory video demo](assets/demo/noface-agent-factory-demo-poster.jpg)](https://denilson-mattos-alvarez.github.io/noface-agent-factory-showcase/#demo)
+
+**1 min 55 sec | Narrated by Denilson Mattos Alvarez**
+
+[Watch with subtitles in the live showcase](https://denilson-mattos-alvarez.github.io/noface-agent-factory-showcase/#demo) | [Open the video file](assets/demo/noface-agent-factory-demo.mp4)
+
+## The project
+
+No-Face Agent Factory explores how specialized AI agents can collaborate on a
+complete media workflow while keeping human judgment, traceability and
+recovery inside the process.
+
+The system coordinates research, scripting, visual planning, voice production,
+subtitle synchronization, rendering, editorial review, publishing and
+performance learning.
+
+## What this work demonstrates
+
+- Product thinking applied to an end-to-end operational workflow
 - Multi-agent orchestration with explicit responsibilities and state contracts
 - Human-in-the-loop quality gates for review and publishing
 - Operational design covering monitoring, persistence, recovery and security
-- A working product narrative presented through a real-voice video demo
+- Video generation designed around repeatability rather than one-off output
 
-The website is designed for hiring teams, managers and collaborators who want
-to understand the problem, the system decisions and the value of the project
-without needing access to its implementation.
+## My role
 
-## Public boundary
+I designed the operating model, decomposed the workflow into specialized
+agents, built the orchestration and control experience, and introduced the
+reliability and security measures required to make the system governable.
 
-This is a deliberately sanitized presentation layer. It contains the static
-showcase, synthetic interface data and the final demo media only. Production
-source, operational configuration, prompts, credentials, logs, private data
-and original voice recordings remain outside this repository.
+## Product principles
 
-Open `index.html` to review the showcase locally.
+- **Human control:** automation supports editorial decisions instead of replacing them
+- **Observability:** every stage exposes a readable state and verifiable output
+- **Modularity:** individual stages can be regenerated or improved independently
+- **Resilience:** backups, integrity checks and recovery are part of the workflow
+- **Source protection:** the public presentation is isolated from the operating product
 
-Run `python tools/audit_showcase.py` before publishing a change. The audit
-rejects operational artifacts, local paths, secret references and unsupported
-file types.
+## Technology landscape
+
+`Python` · `FastAPI` · `Streamlit` · `PostgreSQL` · `Docker` · `n8n` · `FFmpeg` · `Whisper`
+
+## Project status
+
+No-Face Agent Factory is an independently developed product currently in active
+development. The public showcase uses synthetic interface data and final demo
+media. Production source, operational configuration, prompts, credentials,
+logs, private data and original voice recordings remain private.
+
+---
+
+Designed and developed by **Denilson Mattos Alvarez**.
