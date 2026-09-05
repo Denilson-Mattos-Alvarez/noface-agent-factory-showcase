@@ -10,10 +10,13 @@ ROOT = Path(__file__).resolve().parents[1]
 ALLOWED_SUFFIXES = {
     ".css",
     ".html",
+    ".jpg",
     ".js",
     ".md",
+    ".mp4",
     ".png",
     ".py",
+    ".vtt",
     ".yml",
 }
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="No-Face Agent Factory: un sistema AI-assisted per orchestrare la produzione di short-form video con controllo umano, osservabilita e sicurezza.">
+  <meta name="description" content="No-Face Agent Factory, progettata da Denilson Mattos Alvarez: una piattaforma AI-assisted per orchestrare contenuti video con controllo umano, osservabilita e sicurezza.">
   <meta name="theme-color" content="#111315">
   <meta property="og:title" content="No-Face Agent Factory | Project Showcase">
   <meta property="og:description" content="From idea backlog to reviewed, publish-ready vertical video through a coordinated multi-agent workflow.">
@@ -25,6 +25,7 @@
     </a>
 
     <nav class="desktop-nav" aria-label="Navigazione principale">
+      <a href="#demo" data-i18n="navDemo">Demo</a>
       <a href="#overview" data-i18n="navOverview">Progetto</a>
       <a href="#system" data-i18n="navSystem">Sistema</a>
       <a href="#decisions" data-i18n="navDecisions">Decisioni</a>
@@ -45,13 +46,14 @@
         <p class="eyebrow" data-i18n="heroEyebrow">AI automation | Media operations | Human-in-the-loop</p>
         <h1 id="hero-title">No-Face<br>Agent Factory</h1>
         <p class="hero-copy" data-i18n="heroCopy">Un sistema AI-assisted che trasforma un backlog di idee in video verticali revisionabili, coordinando agenti specializzati senza rinunciare al controllo umano.</p>
+        <p class="hero-byline"><span data-i18n="designedBy">Ideato e sviluppato da</span><strong>Denilson Mattos Alvarez</strong></p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#system">
-            <span data-i18n="exploreSystem">Esplora il sistema</span>
+          <a class="button button-primary" href="#demo">
+            <span data-i18n="watchDemo">Guarda la demo</span>
             <i data-lucide="arrow-down" aria-hidden="true"></i>
           </a>
-          <a class="button button-secondary" href="#decisions">
-            <span data-i18n="seeDecisions">Vedi le decisioni</span>
+          <a class="button button-secondary" href="#overview">
+            <span data-i18n="exploreProject">Esplora il progetto</span>
           </a>
         </div>
       </div>
@@ -64,6 +66,28 @@
         <div><strong>9:16</strong><span data-i18n="signalFormat">workflow video end-to-end</span></div>
         <div><strong>HITL</strong><span data-i18n="signalHuman">review e approvazione umana</span></div>
         <div><strong>Private</strong><span data-i18n="signalPrivate">architettura source-protected</span></div>
+      </div>
+    </section>
+
+    <section class="showreel-section" id="demo" aria-labelledby="showreel-title">
+      <div class="page-shell showreel-grid">
+        <div class="showreel-media">
+          <video controls preload="metadata" poster="assets/demo/noface-agent-factory-demo-poster.jpg" aria-label="Video demo di No-Face Agent Factory">
+            <source src="assets/demo/noface-agent-factory-demo.mp4" type="video/mp4">
+            <track kind="captions" src="assets/demo/noface-agent-factory-demo-it.vtt" srclang="it" label="Italiano" default>
+            <a href="assets/demo/noface-agent-factory-demo.mp4" data-i18n="videoFallback">Scarica il video demo</a>
+          </video>
+        </div>
+        <div class="showreel-copy">
+          <p class="section-index">00 / <span data-i18n="videoLabel">Video demo</span></p>
+          <h2 id="showreel-title" data-i18n="videoTitle">La factory spiegata in meno di due minuti.</h2>
+          <p data-i18n="videoBody">Una panoramica concreta del problema, del sistema multi-agente e dei controlli che trasformano l'automazione in un processo operativo governabile.</p>
+          <dl class="demo-facts">
+            <div><dt data-i18n="videoFactDuration">Durata</dt><dd>1:55</dd></div>
+            <div><dt data-i18n="videoFactFocus">Focus</dt><dd data-i18n="videoFactFocusValue">Prodotto, architettura e controllo</dd></div>
+            <div><dt data-i18n="videoFactVoice">Voce</dt><dd>Denilson Mattos Alvarez</dd></div>
+          </dl>
+        </div>
       </div>
     </section>
 
@@ -285,7 +309,7 @@
   <footer class="site-footer">
     <div class="page-shell footer-grid">
       <div><strong>No-Face Agent Factory</strong><span data-i18n="footerType">Independent project showcase</span></div>
-      <p>Designed &amp; built by Dennis | 2026</p>
+      <p>Designed &amp; built by Denilson Mattos Alvarez | 2026</p>
       <a href="#top" aria-label="Torna all'inizio"><span data-i18n="backTop">Torna su</span><i data-lucide="arrow-up" aria-hidden="true"></i></a>
     </div>
   </footer>

@@ -1,0 +1,34 @@
+WEBVTT
+
+00:00.450 --> 00:07.124
+Produrre un video breve non significa solo generare contenuti.
+
+00:07.124 --> 00:14.228
+Significa coordinare ricerca, voce, immagini, qualità e decisioni.
+
+00:15.150 --> 00:31.493
+No-Face Agent Factory trasforma un topic di backlog in un video verticale pronto per la revisione, attraverso una pipeline di agenti di intelligenza artificiale specializzati.
+
+00:32.450 --> 00:42.159
+Ogni agente ha un compito preciso: ricerca, script, visual, voce, sottotitoli, rendering e metadata.
+
+00:42.159 --> 00:46.528
+Gli stati rendono ogni passaggio tracciabile.
+
+00:47.450 --> 00:51.787
+La factory non elimina il giudizio umano.
+
+00:51.787 --> 01:03.001
+Lo concentra dove conta: ascolto, leggibilità, coerenza visiva, approvazione oppure richiesta di modifica.
+
+01:03.950 --> 01:18.155
+API protette, monitoraggio live, backup atomici, recovery e controlli tra file strutturati e PostgreSQL rendono il flusso osservabile e recuperabile.
+
+01:19.150 --> 01:38.199
+Python, FastAPI, Streamlit, Docker, n8n, PostgreSQL, FFmpeg e Whisper lavorano come un unico sistema modulare, non come strumenti isolati.
+
+01:39.150 --> 01:49.590
+No-Face Agent Factory è il mio case study su agentic workflow, product engineering e automazione responsabile.
+
+01:49.590 --> 01:54.051
+Ideato e sviluppato da Denilson Mattos Alvarez.
