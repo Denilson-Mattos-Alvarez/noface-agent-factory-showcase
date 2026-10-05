@@ -1,0 +1,13 @@
+Vi presento la No-Face Agent Factory: otto passaggi coordinati, dall’idea a un video reale.
+
+La pipeline ricerca le fonti, scrive il copione, controlla la qualità e prepara voce, immagini, sottotitoli, montaggio e metadati.
+
+Ogni passaggio ha uno stato visibile: attivo, completato oppure in errore. Posso seguire il contenuto e riconoscere subito un blocco.
+
+La revisione resta umana: controllo la resa e decido se approvare oppure chiedere una modifica.
+
+Se il montaggio fallisce, il flusso si arresta. Correggo il problema e riparto da quel nodo.
+
+I passaggi già completati restano disponibili. Ho integrato strumenti diversi in un unico ecosistema, da maggio.
+
+Seguitemi su LinkedIn per strategie e prossime sfide; su GitHub per il codice. Vi aspetto.

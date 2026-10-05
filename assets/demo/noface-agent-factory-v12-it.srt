@@ -1,0 +1,49 @@
+1
+00:00:00,120 --> 00:00:06,440
+Vi presento la No-Face Agent Factory:
+otto passaggi coordinati, dall’idea a un video reale.
+
+2
+00:00:06,760 --> 00:00:10,020
+La pipeline ricerca le fonti, scrive il copione,
+
+3
+00:00:10,355 --> 00:00:15,120
+controlla la qualità e prepara voce,
+immagini, sottotitoli, montaggio e metadati.
+
+4
+00:00:15,440 --> 00:00:20,060
+Ogni passaggio ha uno stato visibile:
+attivo, completato oppure in errore.
+
+5
+00:00:20,695 --> 00:00:23,980
+Posso seguire il contenuto e riconoscere subito un blocco.
+
+6
+00:00:24,320 --> 00:00:30,140
+La revisione resta umana: controllo la resa
+e decido se approvare oppure chiedere una modifica.
+
+7
+00:00:30,480 --> 00:00:33,160
+Se il montaggio fallisce, il flusso si arresta.
+
+8
+00:00:33,515 --> 00:00:35,740
+Correggo il problema e riparto da quel nodo.
+
+9
+00:00:36,080 --> 00:00:38,950
+I passaggi già completati restano disponibili.
+
+10
+00:00:38,955 --> 00:00:43,920
+Ho integrato strumenti diversi
+in un unico ecosistema, da maggio.
+
+11
+00:00:44,240 --> 00:00:50,700
+Seguitemi su LinkedIn per strategie e prossime sfide;
+su GitHub per il codice. Vi aspetto.

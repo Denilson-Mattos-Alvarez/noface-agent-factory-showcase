@@ -6,11 +6,15 @@
 
 ## Video demo
 
-[![Watch the No-Face Agent Factory video demo](assets/demo/noface-agent-factory-demo-poster.jpg)](https://denilson-mattos-alvarez.github.io/noface-agent-factory-showcase/#demo)
+[![Watch the No-Face Agent Factory video demo](assets/demo/noface-agent-factory-v12-poster.jpg)](https://denilson-mattos-alvarez.github.io/noface-agent-factory-showcase/#demo)
 
-**1 min 55 sec | Narrated by Denilson Mattos Alvarez**
+**52 seconds · 1080p · 7.32 MB · Italian captions · Denilson's synthetic voice**
 
-[Watch with subtitles in the live showcase](https://denilson-mattos-alvarez.github.io/noface-agent-factory-showcase/#demo) | [Open the video file](assets/demo/noface-agent-factory-demo.mp4)
+[Watch in the live showcase](https://denilson-mattos-alvarez.github.io/noface-agent-factory-showcase/#demo) | [Open the video file](assets/demo/noface-agent-factory-v12.mp4)
+
+The animated demo follows the eight automatic pipeline steps, a separate human review gate, and recovery from a failed render. The phone shows a real factory output labelled as a draft; pipeline states are illustrative.
+
+[Read the Italian narration](assets/demo/noface-agent-factory-v12-copione.txt) · [Download subtitles](assets/demo/noface-agent-factory-v12-it.srt)
 
 ## The project
 

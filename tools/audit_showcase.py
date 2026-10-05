@@ -16,6 +16,8 @@ ALLOWED_SUFFIXES = {
     ".mp4",
     ".png",
     ".py",
+    ".srt",
+    ".txt",
     ".vtt",
     ".yml",
 }
@@ -35,7 +37,7 @@ FORBIDDEN_PATTERNS = {
     "operational file": re.compile(r"(?:\.env|docker\s+compose|\.csv(?:\s|$))", re.I),
 }
 
-TEXT_SUFFIXES = {".css", ".html", ".js", ".md", ".py", ".yml"}
+TEXT_SUFFIXES = {".css", ".html", ".js", ".md", ".py", ".srt", ".txt", ".vtt", ".yml"}
 
 
 def iter_public_files() -> list[Path]:
